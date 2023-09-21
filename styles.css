@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: nunito sans, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: nunito sans, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px; 
+}
+
+p {
+    line-height: 3;
+    font-size: 16px;
+    font-family: nunito sans;
+}
+
+ul {
+    font-size: 16px;
+    margin: 20px 5%;
+    font-family: nunito sans;
+}
+
+.main-header {
+    margin: 20px 5%;
+}
+
+.color-container, .font-container, .text-styles {
+    border: 2px solid grey;
+    margin: 10px 5%;
+    display: block;
+    padding: 10px;
+}
+
+.blue, .pink, .green, .beige {
+    margin-bottom: 10px;
+    width: 32%;
+    min-height: 100px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.font-label-SCP, .font-label-popins, .font-label-NS {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.font-label-SCP, .normal-SCP, .italic-SCP, .bold-SCP {
+    font-family: source code pro;
+}
+
+.italic-SCP {
+    font-style: italic;
+}
+
+.bold-SCP {
+    font-weight: 700;
+}
+
+.font-label-poppins, .normal-poppins, .italic-poppins, .bold-poppins {
+    font-family: poppins;
+}
+
+.italic-poppins {
+    font-style: italic;
+}
+
+.bold-poppins {
+    font-weight: 700;
+}
+
+.font-label-NS, .normal-NS, .italic-NS, .bold-NS{
+    font-family: nunito sans;
+}
+
+.italic-NS {
+    font-style: italic;
+}
+
+.bold-NS {
+    font-weight: 700;
+}
+
+.font-panel {
+    display: inline-block;
+}
+
+.blue {
+    background-color: #2d5dcc;
+    color: white;
+}
+
+.pink {
+    background-color: #d957d9;
+}
+
+.green {
+    background-color: #4fe0b0;
+}
+
+.beige {
+    background-color: #efd9ca;
+}
